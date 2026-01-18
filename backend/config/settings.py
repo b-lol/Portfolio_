@@ -131,7 +131,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://portfolio-production-8297.up.railway.app",
+    "https://portfolio-production-8297.up.railway.app"
+    "https://b-lol.tech",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = os.environ.get('CORS_ALLOW_ALL', 'False') == 'True'
