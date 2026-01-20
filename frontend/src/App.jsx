@@ -49,7 +49,8 @@ function App() {
           color: '#fff',
           fontWeight: '700',
         }}>
-          Hi! My name is Bilal Suboor. I am a Computer Science student at UBC.
+          Hi! My name is Bilal Suboor. 
+          I am a Computer Science student at UBC.
         </h1>
         <p style={{ 
           fontSize: '1.3rem', 
