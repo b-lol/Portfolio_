@@ -8,6 +8,7 @@ class Project(models.Model):
     github_url = models.URLField(blank=True)
     live_url = models.URLField(blank=True)
     image_url = models.URLField(blank=True)
+    video_url = models.URLfield(blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

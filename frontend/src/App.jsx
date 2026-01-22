@@ -154,19 +154,55 @@ function App() {
               </div>
             </div>
 
-            {/* Screenshot Placeholder */}
+            {/* Project Media */}
             <div style={{
               flex: 1,
-              backgroundColor: '#e8e0f0',
               borderRadius: '8px',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
               minHeight: '250px',
-              color: '#6B3FA0',
-              border: '2px dashed #6B3FA0',
+              overflow: 'hidden',
             }}>
-              Screenshot coming soon
+              {project.video_url ? (
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    borderRadius: '8px',
+                  }}
+                >
+                  <source src={project.video_url} type="video/mp4" />
+                </video>
+              ) : project.image_url ? (
+                <img
+                  src={project.image_url}
+                  alt={project.title}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    borderRadius: '8px',
+                  }}
+                />
+              ) : (
+                <div style={{
+                  width: '100%',
+                  height: '100%',
+                  backgroundColor: '#e8e0f0',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  color: '#6B3FA0',
+                  border: '2px dashed #6B3FA0',
+                  borderRadius: '8px',
+                  minHeight: '250px',
+                }}>
+                  Media coming soon
+                </div>
+              )}
             </div>
           </div>
         ))}
