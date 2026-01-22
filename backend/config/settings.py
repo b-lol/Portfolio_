@@ -135,6 +135,11 @@ CORS_ALLOWED_ORIGINS = [
     "https://b-lol.tech",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://portfolio-production-e2cb.up.railway.app",
+    "https://b-lol.tech",
+]
+
 CORS_ALLOW_ALL_ORIGINS = os.environ.get('CORS_ALLOW_ALL', 'False') == 'True'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
