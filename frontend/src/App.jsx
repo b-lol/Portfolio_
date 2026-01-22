@@ -49,7 +49,7 @@ function App() {
           color: '#fff',
           fontWeight: '700',
         }}>
-          Hi! My name is Bilal Suboor. 
+          Hi! My name is Bilal Suboor. <br />
           I am a Computer Science student at UBC.
         </h1>
         <p style={{ 
