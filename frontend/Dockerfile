@@ -3,11 +3,14 @@ FROM node:22-slim
 WORKDIR /app
 
 COPY package*.json ./
+
 RUN npm install
 
 COPY . .
 
 RUN npm run build
+
+RUN cp -r public/impostor dist/impostor
 
 RUN npm install -g serve
 
