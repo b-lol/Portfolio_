@@ -10,7 +10,7 @@ COPY . .
 
 RUN npm run build
 
-RUN cp -r public/impostor dist/impostor
+RUN cp -r public/impostor dist/impostor && cp serve.json dist/
 
 RUN npm install -g serve
 
