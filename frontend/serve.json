@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/impostor/**", "destination": "/impostor/index.html" },
-    { "source": "/**", "destination": "/index.html" }
-  ]
-}
