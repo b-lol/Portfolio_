@@ -84550,7 +84550,7 @@ case 5:q.c.af(t.J).f.j1(B.OC)
 case 4:return A.M(null,r)}})
 return A.N($async$oW,r)},
 L(a){var s,r=this,q=null,p=A.x6(q,!0,A.mE(q,q,B.hs,q,q,new A.ak9(a),q,q,q),B.a9),o=t.p,n=r.r
-o=A.c([B.U8,B.b0,A.B1(A.c([A.oY(A.nz(r.e,A.l6(q,new A.bX(4,A.bF(12),B.dr),q,q,q,q,q,q,!0,new A.bX(4,A.bF(12),B.c4),q,q,q,q,q,q,!1,q,q,q,q,new A.bX(4,A.bF(12),B.bz),q,q,2,B.is,"# of rounds to \nplay per game",q,q,q,q,q,q,q,q,q,q,q,q,B.bc,"Rounds",!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.ip,!1,B.br,B.df),1),B.yR,A.oY(A.nz(r.f,A.l6(q,new A.bX(4,A.bF(12),B.dr),q,q,q,q,q,q,!0,new A.bX(4,A.bF(12),B.c4),q,q,q,q,q,q,!1,q,q,q,q,new A.bX(4,A.bF(12),B.bz),q,q,2,B.is,"Time for clue giving\n(0 for no timer)",q,q,q,q,q,q,q,q,q,q,q,q,B.bc,"Timer (sec)",!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.ip,!1,B.br,B.df),1)],o),B.a8,B.a2,B.ae),B.aP,A.nz(n,A.l6(q,new A.bX(4,A.bF(12),B.dr),q,q,q,q,q,q,!0,new A.bX(4,A.bF(12),B.c4),q,q,q,q,q,q,!1,q,q,q,q,new A.bX(4,A.bF(12),B.bz),q,q,2,B.is,"Enter a category for the secret word.\nLeave blank for random words\nEx:Japan gives secret words\n like Tokyo, Anime, Samurai",q,q,q,q,q,q,q,q,q,q,q,q,B.bc,"Category (Optional)",!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),q,!1,B.br,B.df),B.aP],o)
+o=A.c([B.U8,B.b0,A.B1(A.c([A.oY(A.nz(r.e,A.l6(q,new A.bX(4,A.bF(12),B.dr),q,q,q,q,q,q,!0,new A.bX(4,A.bF(12),B.c4),q,q,q,q,q,q,!1,q,q,q,q,new A.bX(4,A.bF(12),B.bz),q,q,2,B.is,"# of rounds to \nplay per game",q,q,q,q,q,q,q,q,q,q,q,q,B.bc,"Rounds",!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.ip,!1,B.br,B.df),1),B.yR,A.oY(A.nz(r.f,A.l6(q,new A.bX(4,A.bF(12),B.dr),q,q,q,q,q,q,!0,new A.bX(4,A.bF(12),B.c4),q,q,q,q,q,q,!1,q,q,q,q,new A.bX(4,A.bF(12),B.bz),q,q,2,B.is,"Time for clue giving\n(0 for no timer)",q,q,q,q,q,q,q,q,q,q,q,q,B.bc,"Timer (sec)",!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.ip,!1,B.br,B.df),1)],o),B.a8,B.a2,B.ae),B.aP,A.nz(n,A.l6(q,new A.bX(4,A.bF(12),B.dr),q,q,q,q,q,q,!0,new A.bX(4,A.bF(12),B.c4),q,q,q,q,q,q,!1,q,q,q,q,new A.bX(4,A.bF(12),B.bz),q,q,4,B.is,"Enter a category for the secret word.\nLeave blank for random words\nEx:Japan->secret words: Tokyo, Anime, Samurai",q,q,q,q,q,q,q,q,q,q,q,q,B.bc,"Category (Optional)",!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),q,!1,B.br,B.df),B.aP],o)
 if(B.c.e7(n.a.a).length!==0)o.push(A.nz(r.w,A.l6(q,new A.bX(4,A.bF(12),B.dr),q,q,q,q,q,q,!0,new A.bX(4,A.bF(12),B.c4),q,q,q,q,q,q,!1,q,q,q,q,new A.bX(4,A.bF(12),B.bz),q,q,q,B.is,"Required for custom categories. Ask b-lol",q,q,q,q,q,q,q,q,q,q,q,q,B.bc,"Passcode",!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),q,!0,B.br,B.df))
 o.push(B.b0)
 n=r.x
@@ -84641,7 +84641,7 @@ break
 case"timer_changed":r.a3(new A.amg(r,n))
 r.Eo()
 break
-case"host_choosing_settings":r.a3(new A.am8(r))
+case"host_choosing_settings":if(!r.a.f)r.a3(new A.am8(r))
 break}},
 afx(){var s=t.z
 this.a.r.j0(A.an(["type","toggle_ready_start","data",A.u(s,s)],t.N,s))
