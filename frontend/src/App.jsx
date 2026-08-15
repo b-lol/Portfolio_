@@ -261,31 +261,19 @@ function App() {
           borderLeft: '5px solid #6B3FA0',
         }}>
           <p style={{ lineHeight: '1.8', marginBottom: '1rem', color: '#444' }}>
-            My name is Bilal. Though Canadian, I spent much of my early years abroad. Moving 
-            from country to country shaped me into a cultural nomad. Aware and appreciative 
-            of human diversity.
+            Med school accepted. I declined. Now I write software for the people working there.
           </p>
           
           <p style={{ lineHeight: '1.8', marginBottom: '1rem', color: '#444' }}>
-            As a teenager, I came across a quote: "Where there's a problem, there's opportunity." 
-            That same year I read Steve Jobs' biography, and the story of iPhone's conception stuck 
-            with me. Apple executives complaining about their phones, and Jobs spearheading a change.
-            While reading the biography, I kept walking by the same truck with the quote: "It's better to strike 
-            a match than curse the darkness".
-            Clearly the universe was teaching me a lesson. And that lesson stuck.
+            A nutrition degree with high honors, and four years spent building a medical school application: research, clinical work, youth community programs, and three years at UHN as an Epic Credentialed Trainer and Certified Analyst. After the acceptance came, I turned it down. That last job is why. Smart people losing hours to workflows nobody designed for them. A dozen clicks to record one thing. A pattern I've seen everywhere since.
           </p> 
           
           <p style={{ lineHeight: '1.8', marginBottom: '1rem', color: '#444' }}>
-            Originally, I was med school bound. I did everything: academics, research, volunteering, 
-            athletics, leadership. And I got accepted. But I couldn't afford to go. Faced with reality,
-            I asked myself am I gonna curse at the darkness or light a match? Am I a board member or Jobs? 
-            With AI making headlines, I pivoted into a new career in Computer Science. 
-            And here I discovered a new passion. The theory, the complexity, the possibilities.
+            Now I'm finishing a CS degree at UBC while working as a software engineer and data analyst, writing the LLM and vision model pipelines that turn raw clinical data into the structured datasets behind published papers. Healthcare is where I learned the problem, but it isn't the boundary. I'm looking for co-op roles where I can go deep on the engineering itself. Right now that means local inference, on-device deployment, and data privacy.
           </p>
           
           <p style={{ lineHeight: '1.8', color: '#444' }}>
-            Anytime someone near me is unhappy with their tech, I perk up and think: can I 
-            make it better?
+            I spent most of my early years abroad, moving country to country so often that adapting became the default rather than the exception. Somewhere in there I picked up a line I've never managed to shake: it's better to strike a match than curse the darkness. So when someone near me is frustrated with their tech, I perk up and think, can I make that better?
           </p>
   
         </div>
@@ -297,8 +285,10 @@ function App() {
         textAlign: 'center',
       }}>
         <h2 style={{ marginBottom: '1.5rem', color: '#fff' }}>Get In Touch</h2>
-        <p style={{ color: '#ccc', marginBottom: '2rem' }}>
+        <p style={{ color: '#ccc', marginBottom: '0.5rem' }}>
           Want to connect? Find me here:
+        </p>
+        <p style={{ color: '#ccc', fontSize: '0.95rem', marginBottom: '2rem' }}>Authorized to work in Canada and the US
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
           <a 
