@@ -1,3 +1,5 @@
+
+import ScrollMirror from './components/ScrollMirror'
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -161,7 +163,9 @@ function App() {
               minHeight: '250px',
               overflow: 'hidden',
             }}>
-              {project.video_url ? (
+              {project.title === 'Portfolio' ? (
+                <ScrollMirror />
+              ) : project.video_url ? (
                 <video
                   autoPlay
                   loop

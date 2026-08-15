@@ -1,0 +1,41 @@
+.mirror-slot {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.mirror-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  will-change: transform;
+}
+
+.mirror-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mirror-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: #6B3FA0;
+    box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.95),
+              0 1px 3px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  will-change: transform;
+}
+@media (max-width: 900px) {
+  .mirror-cursor {
+    display: none;
+  }
+}
