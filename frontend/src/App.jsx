@@ -208,41 +208,45 @@ function App() {
         ))}
       </section>
 
-      {/* Skills Section */}
-      <section id="skills" style={{
-        padding: '4rem 2rem',
-        maxWidth: '900px',
-        margin: '0 auto',
-      }}>
-        <h2 style={{ marginBottom: '2rem', color: '#fff' }}>Technical Skills</h2>
-        
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem' }}>
-          <div>
-            <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Languages</h4>
-            <p style={{ color: '#fff' }}>Java, Python, C++, C, JavaScript, Dart</p>
-          </div>
-          
-          <div>
-            <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Frameworks</h4>
-            <p style={{ color: '#fff' }}>Node.js, Express.js, FastAPI, Flutter, Django, React</p>
-          </div>
-          
-          <div>
-            <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Web/APIs</h4>
-            <p style={{ color: '#fff' }}>REST API, WebSockets, HTML/CSS, OAuth 2.0</p>
-          </div>
-          
-          <div>
-            <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Tools/DevOps</h4>
-            <p style={{ color: '#fff' }}>Docker, Git, Linux</p>
-          </div>
-          
-          <div style={{ gridColumn: 'span 2' }}>
-            <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>ML/AI</h4>
-            <p style={{ color: '#fff' }}>scikit-learn, pandas, NumPy, Search Algorithms, CSPs, Bayesian Networks</p>
-          </div>
-        </div>
-      </section>
+  {/* Skills Section */}
+  <section id="skills" style={{
+    padding: '4rem 2rem',
+    maxWidth: '900px',
+    margin: '0 auto',
+  }}>
+    <h2 style={{ marginBottom: '2rem', color: '#fff' }}>Technical Skills</h2>
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem' }}>
+      <div>
+        <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Languages</h4>
+        <p style={{ color: '#fff' }}>Python, TypeScript, JavaScript, Java, SQL, Dart, C++</p>
+      </div>
+
+      <div>
+        <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Frameworks</h4>
+        <p style={{ color: '#fff' }}>FastAPI, React, Node.js/Express.js, Django REST, Flutter</p>
+      </div>
+
+      <div>
+        <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Data &amp; ML</h4>
+        <p style={{ color: '#fff' }}>pandas, scikit-learn, PyTorch, HuggingFace, ChromaDB, Ollama, Tesseract</p>
+      </div>
+
+      <div>
+        <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Databases</h4>
+        <p style={{ color: '#fff' }}>PostgreSQL, MySQL, ClickHouse, SQLite</p>
+      </div>
+
+      <div>
+        <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Tools/DevOps</h4>
+        <p style={{ color: '#fff' }}>Docker, Docker Compose, Git, Linux, CI/CD, Slurm/HPC</p>
+      </div>
+
+      <div>
+        <h4 style={{ color: '#a78bfa', marginBottom: '0.5rem' }}>Web/APIs</h4>
+        <p style={{ color: '#fff' }}>REST APIs, WebSockets, OAuth 2.0, HTML/CSS</p>
+      </div>
+    </div>
+  </section>
 
       {/* About Section */}
       <section id="about" style={{ 
