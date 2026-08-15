@@ -285,11 +285,10 @@ function App() {
         textAlign: 'center',
       }}>
         <h2 style={{ marginBottom: '1.5rem', color: '#fff' }}>Get In Touch</h2>
-        <p style={{ color: '#ccc', marginBottom: '0.5rem' }}>
+        <p style={{ color: '#ccc', marginBottom: '2rem' }}>
           Want to connect? Find me here:
         </p>
-        <p style={{ color: '#ccc', fontSize: '0.95rem', marginBottom: '2rem' }}>Authorized to work in Canada and the US
-        </p>
+        
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
           <a 
             href="https://github.com/b-lol" 
@@ -322,6 +321,14 @@ function App() {
             LinkedIn
           </a>
         </div>
+
+        <p style={{
+          color: '#6b7280',
+          fontSize: '0.85rem',
+          marginTop: '2.5rem'
+        }}>
+          Authorized to work in Canada and the US
+        </p>
       </section>
 
       {/* Footer */}
