@@ -16,3 +16,5 @@ frontend/dist/
 # OS
 .DS_Store
 frontend/public/images/*.png
+backend/venv/
+backend/db.sqlite3
